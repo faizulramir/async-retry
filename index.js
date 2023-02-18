@@ -1,5 +1,5 @@
 function retry(fn, options) {
-    const attempt = 1;
+    let attempt = 1;
     return new Promise((resolve, reject) => {
       fn(resolve, reject).then(resolve).catch(error => {
         if (attempt < options.retries) {
