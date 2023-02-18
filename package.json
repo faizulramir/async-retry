@@ -1,0 +1,32 @@
+{
+  "name": "async-retry",
+  "version": "1.0.1",
+  "description": "A package to retry a failed async request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ignore-path .gitignore",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizulramir/async-retry.git"
+  },
+  "keywords": [
+    "async-retry"
+  ],
+  "author": "faizulramir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizulramir/async-retry/issues"
+  },
+  "homepage": "https://github.com/faizulramir/async-retry#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "husky": "^8.0.3",
+    "jest": "^29.4.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4"
+  }
+}
