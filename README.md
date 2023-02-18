@@ -1,5 +1,5 @@
 # async-retry
-Simply a package that helps to retry your async function.
+Simply a npm package that helps to retry your async function.
 
 # How to use
 1. Install by npm.
