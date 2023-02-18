@@ -1,5 +1,5 @@
 {
-  "name": "async-retry",
+  "name": "async_retry_fzlxtech",
   "version": "1.0.1",
   "description": "A package to retry a failed async request.",
   "main": "index.js",
@@ -14,7 +14,9 @@
     "url": "git+https://github.com/faizulramir/async-retry.git"
   },
   "keywords": [
-    "async-retry"
+    "async-retry",
+    "async",
+    "asynchronous"
   ],
   "author": "faizulramir",
   "license": "ISC",
